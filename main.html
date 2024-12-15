@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Anniversaries</title>
+    <!-- Include Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Custom styles -->
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-image: url('image/background image.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+        }
+        h1, .card-title {
+            font-family: 'Lobster', cursive;
+            color: #000; /* Making titles black */
+        }
+        .bg-navy, .bg-pink {
+            color: #000; /* Text color black for better visibility */
+            padding: 30px;
+            margin-bottom: 50px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            text-align: center; /* Center text within navy and pink sections */
+        }
+        .description {
+            font-size: 20px; /* Larger font size */
+            font-weight: bold; /* Bold font weight */
+            color: #000; /* Text color black */
+            text-align: center; /* Center alignment for the text */
+            padding: 20px;
+            margin-top: 20px;
+            margin-bottom: 40px;
+            background: rgba(255, 255, 255, 0.8);
+            border-left: 5px solid;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .bg-navy .description {
+            border-color: #ffc0cb;
+        }
+        .bg-pink .description {
+            border-color: #000080;
+        }
+        .section, .video-container {
+            padding: 30px;
+            margin-bottom: 50px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .card {
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+        .card-text {
+            font-weight: bold; /* Make card text bold */
+            color: #000; /* Make card text black */
+        }
+       .video-container {
+    max-width: 640px; /* Adjust this value to fit your design needs */
+    margin: 0 auto; /* Center the video horizontally */
+    width: 100%; /* Ensures it responds to smaller screen sizes */
+    border-radius: 10px; /* Optional: adds rounded corners to the video */
+    overflow: hidden; /* Ensures no overflow outside the border-radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: adds shadow for depth */
+}
+video {
+    width: 100%; /* Ensures the video expands to the container's width */
+    height: auto; /* Maintains aspect ratio */
+}
+
+    </style>
+    <!-- Include Bootstrap Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container">
+
+        <!-- First Anniversary Section -->
+        <div class="section bg-navy rounded">
+            <h1>Our 1st Anniversary, Cinta!</h1>
+            <p class="lead">Our starter for many more years of happiness!</p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="image/first image.jpg" class="card-img-top" alt="Our first selfie">
+                    <div class="card-body">
+                        <p class="card-text">Our first Selfie! HEHEHE.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="image/second image.jpg" class="card-img-top" alt="Puasa bersama!">
+                    <div class="card-body">
+                        <p class="card-text">Comelnya sayang.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="image/third image.jpg" class="card-img-top" alt="First Time">
+                    <div class="card-body">
+                        <p class="card-text">First time datang rumah! ehhehe.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="description bg-navy rounded">Looking back over this year, I realize that every single day with you has been a slice of heaven. Here's to our endless adventures and the many laughs that fill our days. Happy first anniversary, my love! This year has been the most incredible of my life, all thanks to you. You’ve shown me the true meaning of love, and I look forward to all the years we have ahead of us. Happy anniversary, Ayanggg!.</p>
+
+        <!-- Video Section -->
+        <div class="video-container">
+            <video controls>
+                <source src="image/video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <!-- Second Anniversary Section -->
+        <div class="section bg-pink rounded">
+            <h1>Happy 2nd Anniversary, Love!</h1>
+            <p class="lead">Here's to many more years of happiness!</p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="image/fourth image.jpg" class="card-img-top" alt="An unforgettable trip">
+                    <div class="card-body">
+                        <p class="card-text">Semua kita buat sama sama kan saayanggg.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="image/fifth image.jpg" class="card-img-top" alt="Second year event">
+                    <div class="card-body">
+                        <p class="card-text">Icity date!!.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="image/sixth image.jpg" class="card-img-top" alt="Everyday joy">
+                    <div class="card-body">
+                        <p class="card-text">Everyday joys during our second year Sayangku.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="description bg-pink rounded">Two years down, forever to go. Every day with you is a new chapter of joy and love. Thank you for being my partner, my confidant, and my muse. Happy second anniversary, my everything! With every year, our love grows stronger, our laughter grows louder, and our bond grows deeper. Thank you for another year of wonderful memories. Happy anniversary, my beloved SAYANGG!</p>
+
+    </div>
+</body>
+</html>
